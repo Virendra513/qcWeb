@@ -6,5 +6,5 @@ function sendMail(){
         message: document.getElementById("message").value,
     }
 
-    emailjs.send("service_3pn7uvp","template_tmiauab",parms).then(alert("Email sent!!"))
+    emailjs.send("service_3pn7uvp","template_tmiauab",parms).then(alert("Email sent!!"));
 }
